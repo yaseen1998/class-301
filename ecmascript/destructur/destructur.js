@@ -1,14 +1,14 @@
 'use strict'
-var user ={
-    name:'osama',
-    gender:'male',
-    age:'36',
-    program:{
-        html:70,
-        css:80,
-        js:10
-    }
-};
+// var user ={
+//     name:'osama',
+//     gender:'male',
+//     age:'36',
+//     program:{
+//         html:70,
+//         css:80,
+//         js:10
+//     }
+// };
 
 // const {name:theName,gender,age ,theme ='deafault'} =user
 // console.log(`${name}${gender}${age}${theme}`);
@@ -34,20 +34,19 @@ var user ={
 // console.log(`${one1} , ${two2}, ${three3},${fr1},${fr2}`);
 
 
-const food3 =['burger','pozaa','chicken','mango','orang']
-const [o,...parent]=food3
-console.log(`${o} ${parent}`);
+// const food3 =['burger','pozaa','chicken','mango','orang']
+// const [o,...parent]=food3
+// console.log(`${o} ${parent}`);
 
 
 // swapping 
-var book = 'video'
- var video = 'book' ;
+//  ;
 // var stash = book
 // book=video
 // video = stash
 
-[book,video]=[video,book]
-console.log(`book is ${book} video is ${video}`);
+// [book,video]=[video,book]
+// console.log(`book is ${book} video is ${video}`);
 
 // const users ={
 //     user1:'osama',
@@ -64,24 +63,58 @@ console.log(`book is ${book} video is ${video}`);
 // console.log(html);
 // console.log(one);
 
-const users ={
-    user1:'osama',
-    skill:{
-        html:88,
-        css:50,
-        js:{fram1:'v',
-    frame2:'l'}
-    }
-}
+// const users ={
+//     user1:'osama',
+//     skill:{
+//         html:88,
+//         css:50,
+//         js:{fram1:'v',
+//     frame2:'l'}
+//     }
+// }
 // const{user1,skill:{html,css,js:{fram1:one,fram2:two}}}=users
 // console.log(one);
 
-function show({user1,skill:{html,css,js:{fram1:one,fram2:two}}}){
-    console.log(user1);
-    console.log(css);
-    console.log(html);
-    console.log(one);
+// function show({user1,skill:{html,css,js:{fram1:one,fram2:two}}}){
+//     console.log(user1);
+//     console.log(css);
+//     console.log(html);
+//     console.log(one);
     
 
-}
-show(users)
+// }
+// show(users)
+
+
+// // start object
+// // start example number one
+// const username = 'osama',website='@google'
+// const user = { 
+//     username ,
+//     website,
+//     mymethod(param){
+//         return param
+//     }
+// }
+// console.log(user);
+// console.log(user.mymethod('hello function'));
+
+// // end example number one
+
+// // start example number two
+
+// const myvariable = 'key'
+// const myvariable2 = 'key2'
+// const object = {
+//     proprety : 'myvalue',
+//     [myvariable2]:'value3'
+// }
+// object['osama'] = 'value'
+// object[myvariable]= 'value2'
+
+// console.log(object);
+
+// // end example number two
+
+// // end object
+
